@@ -1,0 +1,38 @@
+const AccountForm = () => {
+
+    const [name2, setName2]           = React.useState('');
+    const [email2, setEmail2]         = React.useState('');
+    const [password2, setPassword2]   = React.useState('');
+
+    return (
+        <>
+        <form class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="name2" class="form-label">Name2</label>
+                <input type="text" class="form-control" id="name2" value={name2} onChange = {e => setName2(e.currentTarget.value)} required/>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3">
+                <label for="email2" class="form-label">Email2</label>
+                <input type="text" class="form-control" id="email2" value={email2} onChange = {e => setEmail2(e.currentTarget.value)} required/>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please enter your email.</div>
+            </div>
+            <div class="mb-3">
+                <label for="password2" class="form-label">Password</label>
+                <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="password2" aria-describedby="inputGroupPrepend" value={password2} onChange = {e => setPassword2(e.currentTarget.value)}  required/>
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please choose a username.</div>
+                </div>
+            </div>
+            
+            
+            <div class="mb-3">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+        </>
+    );
+};

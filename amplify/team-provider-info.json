@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-marlahansenbankingap-dev-123414-authRole",
+      "UnauthRoleArn": "arn:aws:iam::441669146669:role/amplify-marlahansenbankingap-dev-123414-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::441669146669:role/amplify-marlahansenbankingap-dev-123414-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-marlahansenbankingap-dev-123414-deployment",
+      "UnauthRoleName": "amplify-marlahansenbankingap-dev-123414-unauthRole",
+      "StackName": "amplify-marlahansenbankingap-dev-123414",
+      "StackId": "arn:aws:cloudformation:us-east-1:441669146669:stack/amplify-marlahansenbankingap-dev-123414/fc923570-f636-11ec-83a4-12cb8b624d2b",
+      "AmplifyAppId": "d7mknuti6qgs2"
+    }
+  }
+}

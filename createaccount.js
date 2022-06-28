@@ -79,7 +79,9 @@ const CreateAccount = () => {
         <>
         <Card
         current = "create-account"
-        bgcolor = "info bg-opacity-50"
+        bgcolor = "warning bg-opacity-50"
+        hbgcolor = "warning"
+        txtcolor = "black"
         header = "Create Account"
         width = "18rem"
         status={status}

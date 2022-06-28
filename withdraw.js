@@ -83,7 +83,9 @@ const Withdraw = () => {
     return (
         <Card
             current = "withdraw"
-            bgcolor = "info"
+            bgcolor = "warning bg-opacity-50"
+            hbgcolor = "warning"
+            txtcolor = "black"
             width = "18rem"
             header = "Withdrawal Page"
             title = {titleHTML}

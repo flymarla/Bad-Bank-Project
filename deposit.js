@@ -78,7 +78,9 @@ const Deposit = () => {
     return (
         <Card
             current = "deposit"
-            bgcolor = "info"
+            bgcolor = "warning bg-opacity-50"
+            hbgcolor = "warning"
+            txtcolor = "black"
             width = "18rem"
             header = "Deposit Page"
             title = {titleHTML}

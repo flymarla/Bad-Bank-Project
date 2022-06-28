@@ -9,6 +9,7 @@ const AllData = () => {
     return (
         <Card
         current = "all-data"
+        bgcolor = "warning bg-opacity-50"
         txtcolor = "black"
         hbgcolor = "warning"
         width = "auto"

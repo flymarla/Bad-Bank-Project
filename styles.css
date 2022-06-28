@@ -1,7 +1,7 @@
 .nav-item a p {
     visibility: hidden;
-    background-color: #555;
-    color: #fff;
+    background-color: #FAF4B7;
+    color: #001D6E;
     font-size: small;
     text-align: center;
     border-radius: 6px;
@@ -21,7 +21,7 @@
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #555 transparent;
+    border-color: transparent transparent #FAF4B7 transparent;
 }
 
 
@@ -32,13 +32,7 @@
 
 
 .nav-link:focus {
-    background-color: #555;
-    color: #fff;
+    background-color: #FAF4B7;
+    color: #001D6E;
 }
 
-/*
-.navbar-dark .nav-item.active .nav-link,
-.navbar-dark .nav-item .nav-link:focus {
-    background-color: #555;
-    color: #fff;
-}*/

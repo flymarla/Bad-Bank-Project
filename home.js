@@ -7,7 +7,8 @@ const Home = () => {
         txtcolor = "black"
         hbgcolor = "warning"
         width = "auto"
-        header = "Welcome to the Bank"
+        header = "Welcome to the USNB Bank"
+        title = "USNB BankUS InsecurUS"
         body = {(<img src="usBank.jpg" className="img-fluid" alt="bank graphic"/>)}
         />       
     );

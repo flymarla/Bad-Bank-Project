@@ -2,9 +2,8 @@ const AllData = () => {
     const ctx = React.useContext(UserContext);
 
     let userData = ctx.users;
-    console.log(userData);
     let len = userData.length;
-    console.log(len);
+    
     
     return (
         <Card

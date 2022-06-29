@@ -14,8 +14,7 @@ const Withdraw = () => {
     let titleHTML = `Balance: \$ ${currentBalance}`; 
 
 
-    // VALIDATION SECTION  This needs a lot of work.  Don't have any validation other than blank now. Also need to disable button if blank.
-    // NEED TO ADD VALIDATION SO ACCOUNT CAN'T GO NEGATIVE!
+    // VALIDATION SECTION  
     const validate = (field) => {
         let label = "";
         let num = Number(field);
@@ -65,7 +64,6 @@ const Withdraw = () => {
         return false;
     }; 
 
-    // note that currently my placeholder is not showing, not sure why
     const handleCreate = () => {
         if(!validate(withdrawal)) return;
 

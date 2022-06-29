@@ -7,16 +7,17 @@ const BrowserRouter = ReactRouterDOM.BrowserRouter;
 const UserContext = React.createContext(null);
 
 const Card = (props) => {
+    // setting background color and text color
     const classes = () => {
         const bg  = props.bgcolor ? ' bg-' + props.bgcolor : ' ';
         const txt = props.txtcolor ? ' text-' + props.txtcolor : ' text-white';
         return 'card mb-3 ' + bg + txt;
       };
-
-      const headerClass = () => {
-        const hbg = props.hbgcolor ? 'bg-' + props.hbgcolor : ' ';
-        return 'card-header ' + hbg;
-      };
+    // setting header background color
+    const headerClass = () => {
+      const hbg = props.hbgcolor ? 'bg-' + props.hbgcolor : ' ';
+      return 'card-header ' + hbg;
+    };
 
     return (
         <div className={classes()} style={{maxWidth:props.width}}>

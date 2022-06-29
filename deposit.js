@@ -51,7 +51,7 @@ const Deposit = () => {
         return true;
     };
 
-    // note that currently my placeholder is not showing, not sure why
+    
     const handleCreate = () => {
         if(!validate(deposit)) return;
 

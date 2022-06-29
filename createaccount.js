@@ -6,12 +6,9 @@ const CreateAccount = () => {
     const [email, setEmail]                     = React.useState('');
     const [password, setPassword]               = React.useState('');
     const [passwardValid, setPasswordValid]     = React.useState(true);
-    //const [emailValid, setEmailValid]           = React.useState(true);
-    //const [nameValid, setNameValid]             = React.useState(true);
     const ctx = React.useContext(UserContext);
 
     let url = window.location.href
-    //console.log("create account: ", url);
 
     // used to change className of password input based on validation
     const classes = () => {
@@ -53,6 +50,7 @@ const CreateAccount = () => {
         }
         return true;
     }
+    
     // function that runs onSubmit of form inputs
     // runs validate functions and if pass pushes info to context and shows success page
     const handleCreate = () => {

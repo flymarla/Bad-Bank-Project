@@ -1,3 +1,4 @@
+// This page is not used.
 const Balance = () => {
     const ctx = React.useContext(UserContext);
 
